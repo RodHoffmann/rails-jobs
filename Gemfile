@@ -62,3 +62,7 @@ gem "turbo-rails"
 gem "stimulus-rails"
 # Vite.js integration in Ruby web apps [https://vite-ruby.netlify.app/]
 gem "vite_rails"
+# parse and extract information from HTML/XML documents [https://nokogiri.org/]
+gem "nokogiri"
+# Ferrum is a high-level API to control headless Chrome or Chromium over the DevTools Protocol
+gem "ferrum"
