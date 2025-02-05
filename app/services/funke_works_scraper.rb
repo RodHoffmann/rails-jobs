@@ -1,4 +1,10 @@
 class FunkeWorksScraper < BaseScraper
+  URL = 'https://www.funkeworks.de/jobs'.freeze
+
+  def initialize
+    super(URL)
+  end
+
   def extract_data
     return {} unless @doc
     positions = @doc.css('a.block')
