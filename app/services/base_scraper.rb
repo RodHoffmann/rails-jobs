@@ -1,5 +1,6 @@
 require 'nokogiri'
 require 'open-uri'
+require 'ferrum'
 
 class BaseScraper
   def initialize(url)
