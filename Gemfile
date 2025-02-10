@@ -66,5 +66,3 @@ gem "vite_rails"
 gem "nokogiri"
 # Ferrum is a high-level API to control headless Chrome or Chromium over the DevTools Protocol
 gem "ferrum"
-
-gem 'net-smtp', '~> 0.5.0'
